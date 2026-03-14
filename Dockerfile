@@ -1,6 +1,3 @@
-FROM tomcat:8.0.20-jre8
-# Dummy text to test 
-COPY target/myweb*.war /usr/local/tomcat/webapps/myweb.war
-
-# Git webhook trigger demo
-# TO test github push trigger
+FROM tomcat:9.0
+COPY *.war /usr/local/tomcat/webapps/myweb.war
+EXPOSE 8080
