@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myweb
-        image: 398069592896.dkr.ecr.us-east-2.amazonaws.com/dc/ecr-demo:latest
+        image: 398069592896.dkr.ecr.us-east-2.amazonaws.com/demo/myweb:latest
         ports:
         - containerPort: 8080
